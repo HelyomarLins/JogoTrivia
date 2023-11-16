@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito:ital,wght@0,200;0,300;0,400;0,500;0,900;1,700 & display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	 font-family: 'Nunito', sans-serif;
+}
+:root {
+    --bottom-color: #fAAD45;
+  }
+body{
+    background-image: url(img/noteTela.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+    background-attachment: fixed;
+}
+main{
+    margin:auto;
+}
+main > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+form .cadjog{
+    overflow: hidden;
+    position: relative;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+  
+}
+form .cadjog > label{
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+}
+form .cadjog > input{
+  color: #fff;
+  font-size: 1.6em;
+  width: 100%;
+  padding: 20px 5px 5px;
+  background-color:#60515190;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 0.8rem;
+}
+form .cadjog > button{
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: var(--bottom-color);
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    border: 2px solid black;
+    margin-top: 2rem;
+}
+.erro {
+    background-color: #9fd28430;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid red;
+    color:var(--bottom-color); 
+    font-weight: bold;
+  
+}
+.link-cadastro {
+    color:#9ac6f7;     
+    text-decoration: none; 
+    font-weight: bold;
+}
+.link-cadastro:hover {
+    color:#13f754; 
+}

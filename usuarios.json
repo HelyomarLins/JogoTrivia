@@ -1,0 +1,12 @@
+[
+    {
+        "Nome": "jogador1",
+        "Email": "jogador1@gmail.com",
+        "Senha": "$2y$10$fpo9UeVGAEQiUIBpShcs2.PfS3FBrk4BYYvp1ngcJa2PdeoWf30Za"
+    },
+    {
+        "Nome": "jogador2",
+        "Email": "jogador2@gmail.com",
+        "Senha": "$2y$10$N.hQDK3velxsNo3jugpwJeNanydDUWK18B1PR\/SvU8reaKmv1Cz3i"
+    }
+]

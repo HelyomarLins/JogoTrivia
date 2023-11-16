@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "jogador2",
+        "acertos": 0,
+        "erros": 1,
+        "total": -1
+    },
+    {
+        "nome": "jogador1",
+        "acertos": 5,
+        "erros": 2,
+        "total": 3
+    }
+]
